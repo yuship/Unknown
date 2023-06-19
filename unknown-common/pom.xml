@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.unknown</groupId>
+        <artifactId>unknown</artifactId>
+        <version>3.6.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>unknown-common-log</module>
+        <module>unknown-common-core</module>
+        <module>unknown-common-redis</module>
+        <module>unknown-common-seata</module>
+        <module>unknown-common-swagger</module>
+        <module>unknown-common-security</module>
+        <module>unknown-common-datascope</module>
+        <module>unknown-common-datasource</module>
+    </modules>
+
+    <artifactId>unknown-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        unknown-common通用模块
+    </description>
+
+</project>
